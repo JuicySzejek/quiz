@@ -1,0 +1,14 @@
+#wynikiList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+.wynik {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.wynik:hover {
+  transform: scale(1.025);
+}

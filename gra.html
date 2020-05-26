@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Odpowiedz na pytanie!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gra.css" />
+  </head>
+  <body>
+    <div class="pojemnik">
+      <div id="laduj"></div>
+      <div id="gra" class="justify-center flex-column hidden">
+        <div id="glowne">
+          <div id="glowne-item">
+            <p id="pasekpostepu" class="glowneprzed">
+              Pytanie
+            </p>
+            <div id="pasek">
+              <div id="pasekpelny"></div>
+            </div>
+          </div>
+          <div id="glowne-item">
+            <p class="glowneprzed">
+              Wynik
+            </p>
+            <h1 class="glownetekst" id="wynik">
+              0
+            </h1>
+          </div>
+        </div>
+        <h2 id="pytanie"></h2>
+        <div class="oknowyboru">
+          <p class="oknopre">A</p>
+          <p class="tekstwybor" data-number="1"></p>
+        </div>
+        <div class="oknowyboru">
+          <p class="oknopre">B</p>
+          <p class="tekstwybor" data-number="2"></p>
+        </div>
+        <div class="oknowyboru">
+          <p class="oknopre">C</p>
+          <p class="tekstwybor" data-number="3"></p>
+        </div>
+        <div class="oknowyboru">
+          <p class="oknopre">D</p>
+          <p class="tekstwybor" data-number="4"></p>
+        </div>
+      </div>
+    </div>
+    <script src="pytania.js"></script>
+    <script src="gra.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gratulacje!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pojemnik">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="wynikost"></h1>
+        <form>
+          <input
+            type="text"
+            name="imie"
+            id="imie"
+            placeholder="imie"
+          />
+          <button
+            type="submit"
+            class="przycisk"
+            id="zapiszwynikprzycisk"
+            onclick="zapiszwynik(event)"
+            disabled
+          >
+            Zapisz wynik
+          </button>
+        </form>
+        <a class="przycisk" href="gra.html">Zagraj jeszcze raz</a>
+        <a class="przycisk" href="index.html">Strona główna</a>
+      </div>
+    </div>
+    <script src="koniec.js"></script>
+  </body>
+</html>
