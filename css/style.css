@@ -1,5 +1,5 @@
 :root {
-  background-image: url('images.png');
+  background-image: url('../images/images.png');
   background-color: black;
   font-size: 2vm;
 }
@@ -52,7 +52,7 @@ h3 {
 }
 
 .pojemnik {
-  background-image: url('background.jpg');
+  background-image: url('../images/background.jpg');
   background-repeat: none;
   background-position: center;
   background-size: cover;
